@@ -9,6 +9,7 @@ def hello_world():
 
 @app.route('/home/')
 def home():
+    print('123')
     return "哈哈哈"
 
 
